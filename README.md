@@ -35,17 +35,17 @@ cd vendor-payment-api
 npm install
 ```
 
-2. Set up environment variables
+3. Set up environment variables
    Copy the example file
 
 ```bash
 cp .env.example .env
 ```
 
-4. Run migrations and generate Prisma client
+4. Apply existing migrations and generate Prisma client
 
 ```bash
-npx prisma migrate dev --name init
+npx prisma migrate dev
 npx prisma generate
 ```
 
