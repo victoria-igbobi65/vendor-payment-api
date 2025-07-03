@@ -25,7 +25,7 @@ A RESTful API for managing vendors and payments, built with:
 ### 1. Clone the repository
 
 ```bash
-https://github.com/victoria-igbobi65/vendor-payment-api.git
+git clone https://github.com/victoria-igbobi65/vendor-payment-api.git
 cd vendor-payment-api
 ```
 
